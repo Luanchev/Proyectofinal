@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Medico</title>
+</head>
+<body>
+    <center><h1>Formulario Medico</h1></center>
+    <br><h2>Formulario de doctores</h2>
+    <br><form action="/my-handling-form-page" method="post"></form>
+    <ul>
+        <li>
+          <label for="name">Nombre:</label>
+          <input type="text" id="namedoc" name="name">
+        </li>
+        <li>
+          <label for="lastname">Apellido:</label>
+          <input type="text" id="lastnamedoc" name="lastname">
+        </li>
+        <li>
+            <label for="id">Numero de Cedula:</label>
+            <input type="number" id="iddoc" name="id">
+        </li>
+        <li>
+            <label for="Tipo de especialista">Tipo de especialista:</label>
+            <select id="especialista" class="form-select" aria-label="Default select example">
+                <option>Medicina general</option>
+                <option>Medicina interna</option>
+                <option>Cardiología</option>
+                <option>Dermatología</option>
+                <option>Rehabilitación física.</option>
+                <option>Psicología</option>
+                <option>Odontología</option>
+                <option>Radiología.</option>
+            </select>
+        </li>
+        <li>
+            <label for="Consultorio">Consultorio:</label>
+            <input type="number" id="Consultoriodoc" name="Consultorio">
+        </li>
+        <li>
+            <label for="Correo electronico">Correo electronico:</label>
+            <input type="email" id="emaildoc" name="correo electronico">
+        </li>
+       
+       </ul>
+       
+      </form>
+      <br>
+           <input type="button" value="Enviar" id="boton1" />
+    </br>
+
+      <!--Formulario de personas-->
+      
+    <br><h2>Formulario Personas</h2>
+    <form action="/my-handling-form-page" method="post"></form>
+        <ul>
+            <li>
+            <label for="name">Nombre:</label>
+            <input type="text" id="nameper" name="name">
+            </li>
+            <li>
+            <label for="lastname">Apellido:</label>
+            <input type="text" id="lastnameper" name="lastname">
+            </li>
+            <li>
+                <label for="id">Numero de Cedula:</label>
+                <input type="number" id="idper" name="id">
+            </li>
+            <li>
+                <label for="Edad">Edad:</label>
+                <input type="number" id="edadper" name="Edad">
+            </li>
+            <li>
+                <label for="Telefono">Telefono:</label>
+                <input type="number" id="telefonoper" name="Telefono">
+            </li>
+            <li>
+                <label for="Tipo de especialista">Tipo de especialista:</label>
+                <select id="especialista" class="form-select" aria-label="Default select example">
+                    <option>Medicina general</option>
+                    <option>Medicina interna</option>
+                    <option>Cardiología</option>
+                    <option>Dermatología</option>
+                    <option>Rehabilitación física.</option>
+                    <option>Psicología</option>
+                    <option>Odontología</option>
+                    <option>Radiología.</option>
+                </select>
+            </li>
+            <li>
+                <label for="Consultorio">Consultorio:</label>
+                <input type="number" id="Consultorioper" name="Consultorio">
+            </li>
+            <li>
+                <label for="Correo electronico">Correo electronico:</label>
+                <input type="email" id="correoelectronicoper" name="correo electronico">
+            </li>
+            
+        </ul>
+    </form>
+    <br>
+        <input type="button" class="btn btn-primary" value="Enviar" id="boton2" />
+    </br>
+    <script src="Formulario.js"></script>
+</body>
+</html>
